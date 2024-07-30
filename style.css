@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --white: #ffffff;
+    --green: #657258;
+    --black: #000000;
+    --cream: #ede6d9;
+    --background: #f7f4f2; 
+    --light-green: #9dbc98;
+    --action: rgba(99, 136, 137, )
+}
+
+/* CSS Reset to get rid of the weird browser setting*/
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "Cormorant Garamond", serif;
+    color: var(--black);
+    scroll-behavior: smooth;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Cormorant Garamond", serif;
+  }
+  
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ol,
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ol,
+  ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  input,
+  button,
+  textarea,
+  select {
+    font: inherit;
+  }
+
+/* utilities */
+
+.display-none {
+    display: none;
+  }
+
+  /* Components */
+
+body {
+    background-color: var(--background);
+}
+
+footer {
+    background-color: var(--green);
+    color: var(--white);
+}
+
+.btn-primary {
+    padding: 13px 26px;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--black);
+    background-color: var(--cream);
+    margin: 24px 16px;
+}
+
+.btn-primary:hover {
+    color: var(--white);
+    background-color: var(--green);
+}
+
+header .mobile-header {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+header button {
+    all: unset;
+}
+
+.logo {
+    height: 150px;
+}
+
+.mobile-nav a {
+    text-decoration: none;
+    color: var(--black);
+    display: block;
+    padding: 4px 16px;
+}
+
+.desktop-nav {
+    display: none;
+}
+
+.hamburger-icon {
+    height: 40px;
+}
+
+.hero {
+    margin: 5px 0;
+}
+
+.hero-bg {
+    margin-bottom: 24px;
+    
+}
+
+.hero-img {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-bg--1 {
+    background-image: url(./img/hero-bg-1.png);
+    width: 100%;
+}
+
+.hero-bg--1 img {
+    width:40%
+}
+
+.hero-bg--2 {
+    background-image: url(./img/hero-bg-1.png);
+    width: 100%;
+}
+
+.hero-text {
+    margin-left: 26px;
+}
+
+.hero h1 {
+    font-size: 2rem;
+    padding: 16px;
+}
+
+.hero p {
+    padding: 16px;
+    margin-bottom: 16px;
+}
+.portfolio {
+    padding: 32px 16px;
+    margin: 5px 10px;
+}
+
+footer {
+    padding:32px 16px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.socials-icon {
+    height: 50px;
+}
+
+footer a:has(img) {
+    text-decoration: none;
+}
+
+footer a:link, a:visited {
+    color: var(--white);
+}
+
+/* contact page styling */
+.form {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 56px;
+}
+.contact-form {
+    margin: 64px 72px;
+}
+
+.contact-form p {
+    padding-bottom: 32px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.form-floating input,textarea {
+    display: block;
+    padding: 8px;
+    margin-bottom: 16px;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid;
+}
+
+.form-floating input[type="submit"] {
+    border: 0;
+    margin-top: 8px;
+    cursor: pointer;
+    background-color: var(--cream);
+    width: 15%;
+}
+
+.form-floating input[type="submit"]:hover {
+    background-color: var(--green);
+    color: var(--white);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
