@@ -17,12 +17,12 @@
 - [x] At least 2 web pages.
 - [x] Version controlled with Git
 - [ ] Deployed on GitHub pages.
-- [ ] Implements responsive design principles.
+- [x] Implements responsive design principles.
 - [x] Uses semantic HTML.
 
 ### Bonus (optional)
  Add a short paragraph describing the features below, if you included any. 
-- [ ] Different styles for active, hover and focus states.
+- [x] Different styles for active, hover and focus states.
 - [ ] Include JavaScript to add some dynamic elements to your site. (Extra tricky!)
 ​
 ### Screenshots
