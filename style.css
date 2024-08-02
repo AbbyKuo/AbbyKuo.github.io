@@ -150,6 +150,8 @@ header button {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-left: 26px;
+    margin-right: 26px;
 }
 
 .hero-bg {
@@ -162,10 +164,6 @@ header button {
     width:40%
 }
 
-.hero-text {
-    margin-left: 26px;
-    margin-right: 26px;
-}
 
 .hero h1 {
     font-size: 2rem;
@@ -177,14 +175,16 @@ header button {
     margin-bottom: 16px;
 }
 
-.content-container {
+.content-container, .portfolio-container {
     margin-left: 26px;
     margin-right: 26px;
     margin-bottom: 48px;
 }
 
+
 .portfolio {
-    margin: 5px 16px;
+    margin: 5px 26px;
+    padding: 0 30px;
 }
 
 footer {
@@ -298,14 +298,27 @@ footer a:visited {
 
 /* portfolio page styling */
 
+.portfolio-mp {
+    margin-bottom: 26px;
+}
+
+.portfolio-mp img, .portfolio-mp p {
+    margin-bottom: 20px;
+}
+.portfolio-mp h2 {
+    margin-bottom: 5px;
+}
+
 .index-head, .index-title, .index-item {
-    margin: 5px 16px;
+    margin: 5px 26px;
+    padding: 0 30px;
 }
 
 .index-container {
     background-color: var(--background);
     padding: 26px 26px 48px;
 }
+
 
 @media (min-width: 768px) {
     header {
@@ -394,9 +407,16 @@ footer a:visited {
         margin-right: auto;
     }
 
+    .portfolio-container {
+        display: flex;
+        justify-content: space-between;
+        margin: 48px 70px;
+    }
+
     .index-container {
         font-size: large;
-        padding: 48px 270px;
+        padding: 48px 70px;
+        
     }
 
     footer {
