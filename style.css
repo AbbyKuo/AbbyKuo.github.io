@@ -6,7 +6,7 @@
     --black: #000000;
     --cream: #ede6d9;
     --background: #f7f4f2; 
-    --light-green: #9dbc98;
+    /* --light-green: #9dbc98; */
     --action: rgba(99, 136, 137, )
 }
 
@@ -75,7 +75,7 @@ html {
   /* Components */
 
 body {
-    background-color: var(--background);
+    background-color: var(--white);
 }
 
 footer {
@@ -89,7 +89,7 @@ footer {
     text-decoration: none;
     color: var(--black);
     background-color: var(--cream);
-    margin: 24px 16px;
+    margin: 26px 0;
 }
 
 .btn-primary:hover {
@@ -109,7 +109,8 @@ header button {
 }
 
 .logo {
-    height: 150px;
+    height: 70px;
+    margin: 15px;
 }
 
 .mobile-nav a {
@@ -125,10 +126,15 @@ header button {
 
 .hamburger-icon {
     height: 40px;
+    margin-right: 26px;
 }
 
 .hero {
-    margin: 5px 0;
+    margin-top: 5px;
+    margin-bottom: 48px;
+    background-color: var(--background);
+    width: 100%;
+    height: auto;
 }
 
 .hero-bg {
@@ -163,6 +169,7 @@ header button {
 
 .hero-text {
     margin-left: 26px;
+    margin-right: 26px;
 }
 
 .hero h1 {
@@ -174,9 +181,15 @@ header button {
     padding: 16px;
     margin-bottom: 16px;
 }
+
+.content-container {
+    margin-left: 26px;
+    margin-right: 26px;
+    margin-bottom: 48px;
+}
+
 .portfolio {
-    padding: 32px 16px;
-    margin: 5px 10px;
+    margin: 5px 16px;
 }
 
 footer {
@@ -225,18 +238,63 @@ footer a:link, a:visited {
     border-bottom: 1px solid;
 }
 
+
 .form-floating input[type="submit"] {
     border: 0;
     margin-top: 8px;
     cursor: pointer;
     background-color: var(--cream);
     width: 15%;
+    min-width: fit-content;
 }
 
 .form-floating input[type="submit"]:hover {
     background-color: var(--green);
     color: var(--white);
 }
+
+/* about page styling */
+.ac {
+    background-color: var(--background);
+    margin-bottom: 48px;
+    padding: 70px 0;
+}
+
+.ac--1, .ac--2 {
+    margin-left: 26px;
+    margin-right: 26px;
+}
+
+.ac--1 h2 {
+    margin-bottom: 16px;
+}
+
+.ac--2 span {
+    border-style: solid;
+    border-color: var(--green);
+    border-radius: 5px;
+    margin-bottom: 16px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.ac--2 h3 {
+    margin-top: 32px;
+}
+
+/* portfolio page styling */
+
+.index-head, .index-title, .index-item {
+    margin: 5px 16px;
+}
+
+.index-container {
+    background-color: var(--background);
+    padding: 26px 26px 48px;
+    /* margin-bottom: 48px; */
+    
+}
+
 
 
 
