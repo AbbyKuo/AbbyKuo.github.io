@@ -152,18 +152,14 @@ header button {
     flex-direction: column;
 }
 
-.hero-bg--1 {
+.hero-bg {
     background-image: url(./img/hero-bg-1.png);
     width: 100%;
+    background-size: cover;
 }
 
 .hero-bg--1 img {
     width:40%
-}
-
-.hero-bg--2 {
-    background-image: url(./img/hero-bg-1.png);
-    width: 100%;
 }
 
 .hero-text {
@@ -386,7 +382,7 @@ footer a:visited {
     }
 
     .contact-form form {
-        width: 50%;
+        width: 70%;
         margin-left: auto;
         margin-right: auto;
     }
