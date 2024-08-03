@@ -168,6 +168,7 @@ header button {
 .hero h1 {
     font-size: 2rem;
     padding: 16px;
+    text-align: center;
 }
 
 .hero p {
@@ -380,6 +381,10 @@ footer a:visited {
 
     .hero-text {
         font-size: large;
+    }
+
+    .hero-text p {
+        padding: 0 70px;
     }
     
     .content-container {
