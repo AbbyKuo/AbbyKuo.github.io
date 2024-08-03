@@ -334,6 +334,7 @@ footer a:visited {
     margin-bottom: 16px;
     border: none;
     padding: 0;
+    font-size: 1.2em;
 }
 
 .index-item {
@@ -437,12 +438,12 @@ footer a:visited {
     .portfolio-container {
         display: flex;
         justify-content: space-between;
-        margin: 48px 70px;
+        margin: 48px 120px;
     }
 
     .index-container {
         font-size: large;
-        padding: 48px 70px;
+        padding: 48px 120px;
         
     }
 
