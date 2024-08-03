@@ -16,7 +16,7 @@
  Add a short paragraph describing the features below. What strategies or design decisions did you work from? 
 - [x] At least 2 web pages.
 - [x] Version controlled with Git
-- [ ] Deployed on GitHub pages.
+- [x] Deployed on GitHub pages.
 - [x] Implements responsive design principles.
 - [x] Uses semantic HTML.
 
