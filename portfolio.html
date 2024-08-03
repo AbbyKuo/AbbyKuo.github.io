@@ -117,18 +117,18 @@
             </div>
             <div>
                 <div class="index-title">
-                    <h3>Languages</h3>
+                    <button class="index-btn">Languages    &plus;</button>
                 </div>
-                <div class="index-item">
-                    <p>HTML CSS JavaScript Python</p>
+                <div class="index-item display-none" id="index-item--1">
+                    <p>HTML | CSS | JavaScript | Python</p>
                 </div>
             </div>
             <div>
                 <div class="index-title">
-                    <h3>Framworks</h3>
+                    <button class="index-btn">Frameworks &plus;</button>
                 </div>
-                <div class="index-item">
-                    <p>React Node.js</p>
+                <div class="index-item display-none" style="display: none" id="index-item--2">
+                    <p>React | Node.js</p>
                 </div>
             </div>
         </section>
@@ -146,6 +146,22 @@
                 <p>©2024 Abby Kuo. All rights reserved.</p>
             </div> 
         </footer>
+
+        <script>
+            function myFunction(event) {
+              var x = event.target.parentElement.parentElement.querySelector(".index-item")
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+
+            let buttons = document.querySelectorAll(".index-title button");
+            [...buttons].forEach((button) => {
+                button.addEventListener("click", myFunction)
+            })
+        </script>
 
     </body>
 

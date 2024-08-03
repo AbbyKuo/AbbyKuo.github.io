@@ -311,13 +311,35 @@ footer a:visited {
 }
 
 .index-head, .index-title, .index-item {
-    margin: 5px 26px;
+    margin-top: 5px;
+    margin-left: 26px;
+    margin-right: 26px;
+    margin-bottom: 16px;
     padding: 0 30px;
+}
+
+.index-title {
+    padding-top: 10px;
 }
 
 .index-container {
     background-color: var(--background);
     padding: 26px 26px 48px;
+}
+
+.index-btn {
+    text-decoration: none;
+    color: var(--black);
+    background-color: var(--background);
+    margin-bottom: 16px;
+    border: none;
+    padding: 0;
+}
+
+.index-item {
+    margin-bottom: 26px;
+    text-decoration: underline;
+    text-underline-offset: 28px;
 }
 
 
