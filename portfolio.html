@@ -149,13 +149,17 @@
         </footer>
 
         <script>
-            function myFunction(event) {
-              var x = event.target.parentElement.parentElement.querySelector(".index-item")
-              if (x.style.display === "none") {
-                x.style.display = "block";
-              } else {
-                x.style.display = "none";
-              }
+            // function myFunction(event) {
+            //   var x = event.target.parentElement.parentElement.querySelector(".index-item")
+            //   if (x.style.display === "none") {
+            //     x.style.display = "block";
+            //   } else {
+            //     x.style.display = "none";
+            //   }
+            // }
+
+            function myFunction() {
+                document.querySelector(".index-item").classList.toggle("display-none");
             }
 
             let buttons = document.querySelectorAll(".index-title button");
